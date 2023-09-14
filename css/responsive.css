@@ -1,0 +1,164 @@
+/*For Large device*/
+@media(min-width: 992px) and (max-width: 1199px) {
+
+	/*header section*/
+
+	.header-section ul li a {
+	    font-size: 17px;
+	}
+	.header-section ul li a i {
+	    font-size: 15px;
+	}
+
+	/*About section*/
+
+	.position {
+	    position: absolute;
+	    top: 350px;
+	    left: 55px;
+	}
+	.about-section .about-main .row {
+	    margin: 0px;
+	}
+	/*features section*/
+
+	.backimage{
+		position: relative;
+	}
+
+	.overlay {
+	    display: none;
+	}
+	/*expertise section*/
+
+	.expertise-slider .slider-text h2 {
+	    font-size: 16px;
+	    color: #fff;
+	}
+
+
+}
+/*For medium device*/
+@media(min-width: 768px) and (max-width: 991px){
+	/*header section*/
+	.header-section ul {
+    	padding-left: 40px;
+	}
+	.header-section ul li a {
+	    font-size: 13px;
+	}
+	.header-section ul li a i {
+	    font-size: 15px;
+	}
+
+	/*About section*/
+	.about-top .para {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.position {
+	    position: absolute;
+	    top: 350px;
+	    left: 55px;
+	}
+	.about-section .about-main .row {
+	    margin: 0px;
+	}
+	/*features section*/
+	.feature-top p {
+	    width: 100%;
+	}
+	.backimage{
+		position: relative;
+	}
+
+	.overlay {
+	    display: none;
+	}
+	/*expertise section*/
+
+	.expertise-slider .slider-text h2 {
+	    font-size: 16px;
+	    color: #fff;
+	}
+
+/*footer section*/
+	.footer-section {
+	    background: url(../img/bgfooter.jpg);
+	    background-repeat: no-repeat;
+	    padding: 12px 0px 80px 0px;
+	}
+	.footer-right p {
+	    font-size: 11px;
+	    padding: 90px 40px;
+	}
+	.footer-right p a {
+	    font-size: 16px;
+	}
+	.footer-center h3 {
+	    font-size: 17px;
+	}
+	.social-icon {
+	    padding: 86px 0px 0px 50px;
+	}
+	.social-icon i {
+	    font-size: 30px;
+	    margin-right: 8px;
+	}
+}
+
+/*For Small device*/
+@media(min-width: 400px) and (max-width: 767px){
+	/*header section*/
+	.headerTop{
+		display: none;
+	}
+	.header-section ul {
+    	padding-left: 0;
+	}
+
+	/*About section*/
+	.about-top .para {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.position {
+	    position: absolute;
+	    top: 350px;
+	    left: 55px;
+	}
+	.about-section .about-main .row {
+	    margin: 0px;
+	}
+	/*features section*/
+	.feature-top p {
+	    width: 100%;
+	}
+	.backimage{
+		position: relative;
+	}
+
+	.overlay {
+	    display: none;
+	}
+	/*expertise section*/
+
+	.expertise-slider .slider-text h2 {
+	    font-size: 16px;
+	    color: #fff;
+	}
+
+/*footer section*/
+	.footer-right p {
+	    padding: 40px 40px;
+	}
+	.footer-right p a {
+	    font-size: 16px;
+	}
+	.social-icon {
+		text-align: center;
+	}
+	
+
+}
+
